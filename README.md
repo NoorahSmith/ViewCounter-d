@@ -1,8 +1,8 @@
 # ViewCounter-d
 YT Some view enhancer
-# YouTube Video Interaction Bot
+# YouTube Video Interaction 
 
-A sophisticated YouTube video interaction bot with multiple proxy modes, realistic browsing behavior, and automatic proxy management. This bot simulates human-like video viewing patterns on YouTube while supporting various proxy configurations for enhanced privacy and geographic diversity.
+A sophisticated YouTube video interaction Tester with multiple proxy modes, realistic browsing behavior, and automatic proxy management. This Tester simulates human-like video viewing patterns on YouTube while supporting various proxy configurations for enhanced privacy and geographic diversity.
 
 ## 📋 Table of Contents
 
@@ -89,7 +89,7 @@ const CONFIG = {
 };
 ```
 
-2. Run the bot:
+2. Run the Tester:
 
 ```bash
 node code.js
@@ -108,13 +108,13 @@ const CONFIG = {
 };
 ```
 
-2. Run the bot:
+2. Run the Tester:
 
 ```bash
 node code.js
 ```
 
-The bot will automatically fetch proxies from free CDN sources (no API key needed).
+The Tester will automatically fetch proxies from free CDN sources (no API key needed).
 
 ## ⚙️ Configuration
 
@@ -557,7 +557,7 @@ const CONFIG = {
 
 ### Smart Proxy Management
 
-The bot includes intelligent proxy management:
+The Tester includes intelligent proxy management:
 
 - **Zero Repetition**: Each proxy is used exactly once
 - **Automatic Refetch**: Fetches new proxies when pool is exhausted
@@ -578,7 +578,7 @@ The bot includes intelligent proxy management:
 
 ### Video Interaction Pattern
 
-The bot simulates realistic viewing:
+The Tester simulates realistic viewing:
 
 1. **Start**: Video begins playing from the beginning
 2. **Seek 1**: Jumps to random position (10-40% of video)
@@ -652,7 +652,7 @@ anonymity: 'anonymous'  // Less restrictive than 'elite'
 - Check internet connection
 - Verify Proxifly API status
 - Check API key in `.env` file
-- Bot will automatically fall back to direct connection
+- Tester will automatically fall back to direct connection
 
 #### "Failed to fetch proxies from free proxy list"
 
@@ -664,7 +664,7 @@ anonymity: 'anonymous'  // Less restrictive than 'elite'
 **Solutions:**
 - Check internet connection
 - Wait and retry (CDN may be temporarily down)
-- Bot automatically tries next source
+- Tester automatically tries next source
 - Falls back to direct connection if all sources fail
 
 #### Browser Launch Errors
@@ -686,7 +686,7 @@ maxConcurrent: 1  // Start with 1
 
 ### Debug Mode
 
-Enable detailed logging by checking console output. The bot provides extensive logging:
+Enable detailed logging by checking console output. The Tester provides extensive logging:
 
 - 🔄 Proxy fetching operations
 - 🌐 Request details (URL, user agent, viewport)
@@ -733,7 +733,7 @@ Watch the final statistics:
 
 ### 6. Error Handling
 
-The bot includes automatic:
+The Tester includes automatic:
 - Retry logic with exponential backoff
 - Proxy rotation on failure
 - Graceful fallback mechanisms
@@ -849,4 +849,4 @@ For issues and questions:
 
 ---
 
-**Happy Botting! 🚀**
+**Happy Testerting! 🚀**
