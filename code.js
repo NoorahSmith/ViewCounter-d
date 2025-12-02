@@ -1010,7 +1010,7 @@ async function runConcurrentScraping() {
 // Sequential scraper (runs totalRequests times, one at a time)
 async function runSequentialScraping() {
     // YouTube video URL from .env file, or use default
-    const url = process.env.YOUTUBE_VIDEO_URL || 'https://www.youtube.com/watch?v=P6mvufMyHQQ';
+    const url = process.env.YOUTUBE_VIDEO_URL || 'https://www.youtube.com/watch?v=MmB9b5njVbA';
     const results = {
         successful: 0,
         failed: 0,
