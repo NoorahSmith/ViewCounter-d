@@ -3,6 +3,7 @@ YT Some view enhancer
 # YouTube Video Interaction 
 
 A sophisticated YouTube video interaction Tester with multiple proxy modes, realistic browsing behavior, and automatic proxy management. This Tester simulates human-like video viewing patterns on YouTube while supporting various proxy configurations for enhanced privacy and geographic diversity.
+<img width="1147" height="696" alt="image" src="https://github.com/user-attachments/assets/ed0a6fa8-a866-4770-b728-60e43ffb8dea" />
 
 ## 📋 Table of Contents
 
