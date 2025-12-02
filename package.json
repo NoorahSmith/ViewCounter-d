@@ -22,6 +22,6 @@
     "dotenv": "^17.2.3",
     "proxifly": "^2.0.4",
     "puppeteer": "^24.31.0",
-    "random-user-agent": "^1.0.0"
+    "random-useragent": "^0.5.0"
   }
 }
