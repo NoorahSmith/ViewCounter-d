@@ -1,0 +1,27 @@
+{
+  "name": "viewcounter-d",
+  "version": "1.0.0",
+  "description": "YT Some view enhancer",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoorahSmith/ViewCounter-d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NoorahSmith/ViewCounter-d/issues"
+  },
+  "homepage": "https://github.com/NoorahSmith/ViewCounter-d#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "proxifly": "^2.0.4",
+    "puppeteer": "^24.31.0",
+    "random-user-agent": "^1.0.0"
+  }
+}
